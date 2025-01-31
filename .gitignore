@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-lock.yaml
+
+# Build outputs
+dist/
+*.js
+*.d.ts
+*.map
+*.tsbuildinfo
+
+# Binary files
+*.bin
+*.CMD
+*.ps1
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

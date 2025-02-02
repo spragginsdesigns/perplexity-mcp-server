@@ -2,6 +2,8 @@
 
 This is a simple MCP server that allows you to search the web using Perplexity AI.
 
+<a href="https://glama.ai/mcp/servers/uvz269wuup"><img width="380" height="200" src="https://glama.ai/mcp/servers/uvz269wuup/badge" alt="Perplexity Server MCP server" /></a>
+
 ## Installation
 
 ### Prerequisites

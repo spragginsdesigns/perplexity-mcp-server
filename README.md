@@ -47,6 +47,23 @@ npm run build
 npm start
 ```
 
+### Using the Windows Batch File (Recommended)
+To avoid environment variable issues on Windows, use the included batch file:
+
+1. Build the project first:
+```bash
+npm run build
+```
+
+2. Run the batch file:
+```bash
+.\run-perplexity-server.bat
+```
+
+Alternatively, double-click the `run-perplexity-server.bat` file in Windows Explorer.
+
+For detailed instructions, see the [Windows Setup Guide](./docs/windows-setup.md).
+
 ## Troubleshooting Windows Issues
 
 ### Common Issues
@@ -59,6 +76,7 @@ npm start
    - Ensure `.env` file is in the root directory
    - No spaces around the `=` sign in `.env` file
    - Restart terminal after making changes to environment variables
+   - Use the provided batch file to avoid environment variable issues
 
 3. **Node.js Issues**
    - Verify Node.js installation: `node --version`
@@ -79,6 +97,7 @@ perplexity-mcp-server/
 ├── dist/                 # Compiled output
 ├── .env                  # Environment variables
 ├── package.json          # Project configuration
+├── run-perplexity-server.bat # Windows batch file
 └── tsconfig.json         # TypeScript configuration
 ```
 

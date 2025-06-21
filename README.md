@@ -1,5 +1,7 @@
 # Perplexity MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@spragginsdesigns/perplexity-mcp-server)](https://smithery.ai/server/@spragginsdesigns/perplexity-mcp-server)
+
 This is a simple MCP server that allows you to search the web using Perplexity AI.
 
 ## 
@@ -7,6 +9,14 @@ This is a simple MCP server that allows you to search the web using Perplexity A
 MCP Review Certified: https://mcpreview.com/mcp-servers/spragginsdesigns/perplexity-mcp-server
 
 ## Installation
+
+### Installing via Smithery
+
+To install Perplexity MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@spragginsdesigns/perplexity-mcp-server):
+
+```bash
+npx -y @smithery/cli install @spragginsdesigns/perplexity-mcp-server --client claude
+```
 
 ### Prerequisites
 - Node.js 18+ (Download from [nodejs.org](https://nodejs.org/))

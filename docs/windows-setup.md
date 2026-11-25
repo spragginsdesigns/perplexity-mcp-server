@@ -46,7 +46,7 @@ The repository includes a special Node.js entry script designed specifically for
 1. In Cursor, go to the MCP configuration
 2. Set the command to:
    ```
-   node C:/Users/Owner/Documents/Github_Repositories/perplexity-mcp-server/cursor-entry.js
+   node C:/path/to/perplexity-mcp-server/cursor-entry.js
    ```
 
 This script directly sets the environment variable in the Node.js process before loading the application.
@@ -58,7 +58,7 @@ Alternatively, you can use the provided CMD script:
 1. In Cursor, go to the MCP configuration
 2. Set the command to:
    ```
-   C:/Users/Owner/Documents/Github_Repositories/perplexity-mcp-server/run-perplexity-server.cmd
+   C:/path/to/perplexity-mcp-server/run-perplexity-server.cmd
    ```
 
 ### Option 3: Use the Hidden Window VBS Script (No Console Window)
@@ -68,7 +68,7 @@ If you want to run the server without seeing a console window, use the VBS scrip
 1. In Cursor, go to the MCP configuration
 2. Set the command to:
    ```
-   C:/Users/Owner/Documents/Github_Repositories/perplexity-mcp-server/run-perplexity-server-hidden.vbs
+   C:/path/to/perplexity-mcp-server/run-perplexity-server-hidden.vbs
    ```
 
 This script runs the server completely in the background without showing any console window.
@@ -80,7 +80,7 @@ If the above options don't work, you can try a direct command:
 1. In Cursor, go to the MCP configuration
 2. Set the command to:
    ```
-   cmd.exe /c "set PERPLEXITY_API_KEY=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 && node C:/Users/Owner/Documents/Github_Repositories/perplexity-mcp-server/dist/index.js"
+   cmd.exe /c "set PERPLEXITY_API_KEY=your-perplexity-api-key && node C:/path/to/perplexity-mcp-server/dist/index.js"
    ```
 
 ## Troubleshooting

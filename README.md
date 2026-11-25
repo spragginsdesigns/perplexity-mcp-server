@@ -17,7 +17,7 @@ MCP Review Certified: https://mcpreview.com/mcp-servers/spragginsdesigns/perplex
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/spragginsdesigns/perplexity-mcp-server.git
 cd perplexity-mcp-server
 ```
 
